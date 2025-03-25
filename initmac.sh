@@ -55,3 +55,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # Set macOS preferences - we will run this last because this will reload the shell
 # source ./.macos
+
+# replace Terminal.app config
+cp -f ./com.apple.Terminal.plist ~/Library/Preferences/com.apple.Terminal.plist
